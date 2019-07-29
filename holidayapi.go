@@ -15,7 +15,7 @@ type V1 struct {
 func NewV1(key string) *V1 {
 	v1 := &V1{
 		Key: key,
-		Url: "https://holidayapi.pl/v1/holidays?",
+		Url: "https://getfestivo.com/v1/holidays?",
 	}
 
 	return v1
